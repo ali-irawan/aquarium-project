@@ -148,9 +148,9 @@ See the method
 
 	
 	private void registerFishTypesFromIndex() {
-
+	
 		BufferedReader reader = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/index")));
-
+		
 		String input;
 		try {
 			input = reader.readLine();
@@ -170,4 +170,18 @@ See the method
 	}
 	
 # Easily adding new Fish
+- Create a new class for example **YellowFish.java** in package **aliirawan.aquariumproject.model.impl**
+- Implements the required method, make sure you use image for example **fish-yellow.png** and **fish-yellow-right.png**
+- Put those images in **src/main/resources**
+- Add some line the index file
 
+
+	Yellow Fish,Yellow Fish,aliirawan.aquariumproject.model.impl.YellowFish
+	
+# We have separated branches
+
+## master
+- Only has RedFish
+
+## branch-with-two-fish
+- Has two fish, RedFish and YellowFish 
