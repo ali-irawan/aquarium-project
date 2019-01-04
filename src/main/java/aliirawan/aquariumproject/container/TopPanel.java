@@ -11,7 +11,6 @@ import javax.swing.JPanel;
 import aliirawan.aquariumproject.core.FishFactory;
 import aliirawan.aquariumproject.core.FishType;
 import aliirawan.aquariumproject.model.Fish;
-import aliirawan.aquariumproject.model.impl.RedFish;
 
 /**
  * Top panel object
