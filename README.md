@@ -183,5 +183,5 @@ See the method
 ## master
 - Only has RedFish
 
-## branch-with-two-fish
+## branch: with-two-fishes
 - Has two fish, RedFish and YellowFish 
