@@ -1,4 +1,4 @@
-package id.ststech.javabasic.aquarium.container;
+package aliirawan.aquariumproject.container;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

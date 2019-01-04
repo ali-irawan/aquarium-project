@@ -1,10 +1,10 @@
-package id.ststech.javabasic.aquarium.model;
+package aliirawan.aquariumproject.model;
 
 import java.awt.Image;
 
 import javax.swing.JLabel;
 
-import id.ststech.javabasic.aquarium.container.InsideContainer;
+import aliirawan.aquariumproject.container.InsideContainer;
 
 public abstract class Fish extends JLabel implements Movable, Runnable {
 

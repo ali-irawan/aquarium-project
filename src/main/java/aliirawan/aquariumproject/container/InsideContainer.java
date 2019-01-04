@@ -1,4 +1,4 @@
-package id.ststech.javabasic.aquarium.container;
+package aliirawan.aquariumproject.container;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -10,7 +10,7 @@ import java.util.Vector;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-import id.ststech.javabasic.aquarium.model.Fish;
+import aliirawan.aquariumproject.model.Fish;
 
 /**
  * The aquarium container

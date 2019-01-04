@@ -1,4 +1,4 @@
-package id.ststech.javabasic.aquarium.container;
+package aliirawan.aquariumproject.container;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import id.ststech.javabasic.aquarium.model.Fish;
-import id.ststech.javabasic.aquarium.model.impl.RedFish;
+import aliirawan.aquariumproject.model.Fish;
+import aliirawan.aquariumproject.model.impl.RedFish;
 
 /**
  * Top panel object

@@ -1,9 +1,9 @@
 /**
  * 
  */
-package id.ststech.javabasic.aquarium;
+package aliirawan.aquariumproject;
 
-import id.ststech.javabasic.aquarium.container.MainFrame;
+import aliirawan.aquariumproject.container.MainFrame;
 
 /**
  * @author Ali Irawan

@@ -1,4 +1,4 @@
-package id.ststech.javabasic.aquarium.model;
+package aliirawan.aquariumproject.model;
 
 public enum FishHorizontalDirection {
 

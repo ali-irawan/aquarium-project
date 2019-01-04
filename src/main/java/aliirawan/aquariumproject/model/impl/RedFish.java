@@ -1,11 +1,11 @@
-package id.ststech.javabasic.aquarium.model.impl;
+package aliirawan.aquariumproject.model.impl;
 
 import java.awt.Image;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-import id.ststech.javabasic.aquarium.model.Fish;
+import aliirawan.aquariumproject.model.Fish;
 
 public class RedFish extends Fish {
 
