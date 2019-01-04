@@ -97,7 +97,7 @@ public abstract class Fish extends JLabel implements Movable, Runnable {
 
 	private void randomMaxRight() {
 		InsideContainer container = InsideContainer.getInstance();
-		this.maxRight = (int) (Math.random() * (container.getWidth() - 100));
+		this.maxRight = container.getWidth() - (int) (Math.random() * 100);
 	}
 
 	private void randomMinTop() {
@@ -106,7 +106,7 @@ public abstract class Fish extends JLabel implements Movable, Runnable {
 
 	private void randomMaxBottom() {
 		InsideContainer container = InsideContainer.getInstance();
-		this.maxBottom = (int) (Math.random() * (container.getHeight() - 100));
+		this.maxBottom = container.getHeight() - (int) (Math.random() * 100);
 	}
 
 	public void moveUp() {
